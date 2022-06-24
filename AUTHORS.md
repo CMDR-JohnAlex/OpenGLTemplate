@@ -1,18 +1,19 @@
 Authors
 =======
 
-The OpenGLTemplate Developers are:
+The Constellation-Engine Developers are:
 
-| Username               | Name                   |
-| ---------------------- | ---------------------- |
-| CMDR-JohnAlex          | John Alexander Le Roux |
+| Username               |
+| ---------------------- |
+| CMDR-JohnAlex          |
+| CMDR-Piboy314          |
 
 Licensing
 =========
 
 MIT License
 
-Copyright (c) 2022 John Alexander Le Roux and other OpenGLTemplate Developers (see [AUTHORS.md](AUTHORS.md))
+Copyright (c) 2022 Constellation-Engine Developers (see [AUTHORS.md](AUTHORS.md))
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +34,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-OpenGLTemplate includes the following third-party software:
+Constellation-Engine includes the following third-party software:
 
 	{Name of 3rd party software}
 	Copyright (c) {year(s)} {Developer name}
@@ -53,17 +54,18 @@ OpenGLTemplate includes the following third-party software:
 
 	glad
 	Copyright (c) 2013-2021 David Herberth
-	Licensed under the MIT License (License: contrib/glad/LICENSE.md) (File(s): contrib/glad/glad.c)
+	Licensed under the MIT License (License: contrib/glad/LICENSE.md)
 .
 
 	stb
 	Copyright (c) 2013-2021 David Herberth
-	Licensed under the public domain or MIT license (License: contrib/stb/stb_image.h) (File(s): contrib/stb/stb_image.h)
+	Licensed under the public domain or MIT license (License: contrib/stb/stb_image.hpp)
+
 
 Acknowledgments
 ===============
 
-The OpenGLTemplate Developers would like to acknowledge the following, without which OpenGLTemplate would not be possible:
+The Constellation-Engine Developers would like to acknowledge the following, without which Constellation-Engine would not be possible:
 
 [learncpp.com](https://www.learncpp.com/)
 
@@ -72,5 +74,3 @@ The OpenGLTemplate Developers would like to acknowledge the following, without w
 [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html)
 
 [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
-
-`My brother, my sister and my parents! :)` - John Alexander Le Roux

@@ -9,12 +9,15 @@
 ### Added
 * Added contrib/
 * Added contrib/glad/
-* Added contrib/glad/glad.c
+* Added contrib/glad/src/
+* Added contrib/glad/src/glad.c
 * Added contrib/glad/LICENSE
 * Added contrib/glfw/
 * Added contrib/glfw/LICENSE.md
+* Added contrib/glm/
 * Added contrib/glm/copying.txt
-* Added contrib/stb_image.h
+* Added contrib/stb/
+* Added contrib/stb/LICENSE
 * Added data/
 * Added data/icons/
 * Added data/models/
@@ -23,15 +26,18 @@
 * Added data/sounds/
 * Added data/textures/
 * Added src/
-* Added src/ANSI/
-* Added src/ANSI/ANSI.hpp
-* Added src/ANSI/ANSI.md
-* Added src/config/
-* Added src/config/config.hpp
+* Added src/core/
+* Added src/core/init/
+* Added src/core/init/init.cpp
+* Added src/core/init/init.hpp
+* Added src/core/window/
+* Added src/core/window/window.cpp
+* Added src/core/window/window.hpp
 * Added src/main.cpp
+* Added src/main.hpp
 * Added AUTHORS.md
 * Added CHANGELOG.md
-* Added OpenGLTemplate.sln
+* Added Constellation-Engine.sln
 * Added LICENSE
 * Added README.md
 

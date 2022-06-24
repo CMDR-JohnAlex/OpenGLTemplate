@@ -1,22 +1,22 @@
-# OpenGLTemplate
+# Constellation-Engine
 
-![GitHub Repo stars](https://img.shields.io/github/stars/CMDR-JohnAlex/OpenGLTemplate?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/CMDR-JohnAlex/OpenGLTemplate?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/ConstellationGamesOrg/Constellation-Engine?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/ConstellationGamesOrg/Constellation-Engine?style=social)
 
-![GitHub top language](https://img.shields.io/github/languages/top/CMDR-JohnAlex/OpenGLTemplate)
-![Lines of code](https://img.shields.io/tokei/lines/github/CMDR-JohnAlex/OpenGLTemplate)
-![GitHub repo size](https://img.shields.io/github/repo-size/CMDR-JohnAlex/OpenGLTemplate)
+![GitHub top language](https://img.shields.io/github/languages/top/ConstellationGamesOrg/Constellation-Engine)
+![Lines of code](https://img.shields.io/tokei/lines/github/ConstellationGamesOrg/Constellation-Engine)
+![GitHub repo size](https://img.shields.io/github/repo-size/ConstellationGamesOrg/Constellation-Engine)
 
-![GitHub issues](https://img.shields.io/github/issues/CMDR-JohnAlex/OpenGLTemplate)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/CMDR-JohnAlex/OpenGLTemplate)
-![GitHub](https://img.shields.io/github/license/CMDR-JohnAlex/OpenGLTemplate)
+![GitHub issues](https://img.shields.io/github/issues/ConstellationGamesOrg/Constellation-Engine)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ConstellationGamesOrg/Constellation-Engine)
+![GitHub](https://img.shields.io/github/license/ConstellationGamesOrg/Constellation-Engine)
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/CMDR-JohnAlex/OpenGLTemplate)
-![GitHub all releases](https://img.shields.io/github/downloads/CMDR-JohnAlex/OpenGLTemplate/total)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ConstellationGamesOrg/Constellation-Engine)
+![GitHub all releases](https://img.shields.io/github/downloads/ConstellationGamesOrg/Constellation-Engine/total)
 
-## About OpenGLTemplate
+## About Constellation-Engine
 
-This is the template I use for every new C++ OpenGL project.
+.
 
 Please note, if you compile the program for yourself, make sure you move the executable to the root project directory.
 
@@ -28,7 +28,7 @@ Our Documentation can be found in the code's // Comments.
 
 ## Bug Reporting
 
-You can report bugs in the [issues tab](https://github.com/CMDR-JohnAlex/OpenGLTemplate/issues) in the github repository.
+You can report bugs in the [issues tab](https://github.com/ConstellationGamesOrg/Constellation-Engine/issues) in the github repository.
 
 ## Contributing
 

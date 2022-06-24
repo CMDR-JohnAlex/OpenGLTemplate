@@ -10,12 +10,6 @@
     <Filter Include="data">
       <UniqueIdentifier>{e506e63f-5235-4c0d-baa8-453872cf6ab1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\config">
-      <UniqueIdentifier>{90644790-8ad4-44e6-911f-ca43fe6a63e1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\ANSI">
-      <UniqueIdentifier>{dcc5ab23-65e5-4dd8-a58c-fc92beda18e7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="data\icons">
       <UniqueIdentifier>{1eb32c95-619b-4775-8944-7e1031c9fede}</UniqueIdentifier>
     </Filter>
@@ -46,33 +40,24 @@
     <Filter Include="contrib\glm">
       <UniqueIdentifier>{bcaee1cc-6e84-46d4-88be-11e2e7b35d3f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="contrib\glad\src">
+      <UniqueIdentifier>{f3704d02-e291-4ecf-bca1-d77b9613c1b3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="contrib\glad\glad.c">
-      <Filter>contrib\glad</Filter>
+    <ClCompile Include="contrib\glad\src\glad.c">
+      <Filter>contrib\glad\src</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\config\config.hpp">
-      <Filter>src\config</Filter>
-    </ClInclude>
-    <ClInclude Include="src\ANSI\ANSI.hpp">
-      <Filter>src\ANSI</Filter>
-    </ClInclude>
-    <ClInclude Include="contrib\stb\stb_image.h">
-      <Filter>contrib\stb</Filter>
-    </ClInclude>
+    <ClCompile Include="src\core\init\init.cpp" />
+    <ClCompile Include="src\core\window\window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
     <None Include="AUTHORS.md" />
     <None Include="CHANGELOG.md" />
-    <None Include="src\ANSI\ANSI.md">
-      <Filter>src\ANSI</Filter>
-    </None>
     <None Include="contrib\glad\LICENSE">
       <Filter>contrib\glad</Filter>
     </None>
@@ -109,5 +94,21 @@
     <Text Include="contrib\glm\copying.txt">
       <Filter>contrib\glm</Filter>
     </Text>
+    <Text Include="contrib\stb\LICENSE">
+      <Filter>contrib\stb</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\textures\container.jpg">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="data\textures\awesomeface.png">
+      <Filter>data\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\main.hpp" />
+    <ClInclude Include="src\core\init\init.hpp" />
+    <ClInclude Include="src\core\window\window.hpp" />
   </ItemGroup>
 </Project>
