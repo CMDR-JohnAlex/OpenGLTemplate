@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{3fd6292a-eada-430b-ba24-59eb91c1424d}</ProjectGuid>
-    <RootNamespace>Constellation-Engine</RootNamespace>
+    <RootNamespace>OpenGLTemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -96,7 +96,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\thirdparty\stb;..\thirdparty\glfw-3.3.6.bin.WIN32\include;..\thirdparty\glad\include;..\thirdparty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\thirdparty\glad\include;..\thirdparty\glfw-3.3.6.bin.WIN32\include;..\thirdparty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -114,7 +114,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\thirdparty\stb;..\thirdparty\glfw-3.3.6.bin.WIN32\include;..\thirdparty\glad\include;..\thirdparty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\thirdparty\glad\include;..\thirdparty\glfw-3.3.6.bin.WIN32\include;..\thirdparty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -132,7 +132,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\thirdparty\stb;..\thirdparty\glfw-3.3.6.bin.WIN64\include;..\thirdparty\glad\include;..\thirdparty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\thirdparty\glad\include;..\thirdparty\glfw-3.3.6.bin.WIN64\include;..\thirdparty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -150,7 +150,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\thirdparty\stb;..\thirdparty\glfw-3.3.6.bin.WIN64\include;..\thirdparty\glad\include;..\thirdparty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\thirdparty\glad\include;..\thirdparty\glfw-3.3.6.bin.WIN64\include;..\thirdparty\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -162,17 +162,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="contrib\glad\src\glad.c" />
-    <Text Include="contrib\stb\LICENSE">
-      <FileType>Document</FileType>
-    </Text>
-    <ClCompile Include="src\core\init\init.cpp" />
-    <ClCompile Include="src\core\window\window.cpp" />
+    <ClCompile Include="contrib\glad\glad.c" />
     <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="contrib\stb\stb_image.h" />
+    <ClInclude Include="src\ANSI\ANSI.hpp" />
+    <ClInclude Include="src\config\config.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="contrib\glad\LICENSE" />
     <None Include="contrib\glfw\LICENSE.md" />
+    <None Include="src\ANSI\ANSI.md" />
     <None Include="AUTHORS.md" />
     <None Include="CHANGELOG.md" />
     <None Include="README.md" />
@@ -188,15 +189,6 @@
     <Text Include="data\sounds\placeholder.txt" />
     <Text Include="data\textures\placeholder.txt" />
     <Text Include="LICENSE" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="data\textures\awesomeface.png" />
-    <Image Include="data\textures\container.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\core\init\init.hpp" />
-    <ClInclude Include="src\core\window\window.hpp" />
-    <ClInclude Include="src\main.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
